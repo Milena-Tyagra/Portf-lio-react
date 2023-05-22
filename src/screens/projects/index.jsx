@@ -3,9 +3,7 @@ import React from "react"
 import InfoCard from "../../components/information/InfoCard"
 import Project from "./components/Project"
 
-import { projects } from "./data"
-
-export default function Projects() {
+export default function Projects({ projects }) {
   return (
     <div className="flex items-center justify-center my-5">
       <div

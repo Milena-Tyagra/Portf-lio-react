@@ -4,9 +4,7 @@ import InfoCard from "../../components/information/InfoCard"
 import Experience from "./components/Experiency"
 import Certification from "./components/Certification"
 
-import { about, experiences, certifications } from "./data"
-
-export default function Resume() {
+export default function Resume({ about, certifications, experiences }) {
   return (
     <div className="flex items-center justify-center">
       <div className="w-[90%] my-7 flex flex-col gap-y-5">
